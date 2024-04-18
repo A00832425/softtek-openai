@@ -14,13 +14,13 @@ from softtek_llm.embeddings import SofttekOpenAIEmbeddings
 
 # Openai model with Softtek's credentials
 softtek_model = SofttekOpenAI(
-    api_key="oHq72Gq1FeM08SyHwOR2",
+    api_key="apikey",
     model_name="InnovationGPT4-Turbo",
 )
 
 softtek_embed = SofttekOpenAIEmbeddings(
   model_name= "OpenAIEmbeddings",
-  api_key= "oHq72Gq1FeM08SyHwOR2",
+  api_key= "apikey",
 )
 # We create an empty memory for the chatbot.
 # WindowMemory is a special type of memory that stores a limited
